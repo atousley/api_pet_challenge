@@ -15,7 +15,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #E32E1C;
 }
 
 li {
@@ -43,6 +43,11 @@ header {
     text-align: center;
     font-size: 35px;
     font-family: 'Schoolbell', cursive;
+}
+
+.home h1 {
+    text-align: center;
+    margin-top: 30px;
 }
 
 main h1 {
