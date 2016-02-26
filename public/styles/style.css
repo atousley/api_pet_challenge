@@ -4,10 +4,20 @@
     margin: 0;
 }
 
+body {
+    background: #CECFCF url(../images/farm.jpg);
+    background-size: cover;
+}
+
 .container {
     width: 650px;
     margin: 15px auto 15px auto;
     font-family: 'Asap', sans-serif;
+}
+
+.info_container {
+    background-color: white;
+    border-radius: 3px;
 }
 
 ul {
@@ -58,12 +68,12 @@ main h1 {
 
 main h2 {
     font-size: 20px;
-    padding: 3px 0;
+    padding: 3px 5px;
 }
 
 main h3 {
     font-size: 18px;
-    padding: 3px 0;
+    padding: 3px 5px;
 }
 
 main p {
@@ -76,6 +86,6 @@ main p {
 
 img {
     display: block;
-    margin: 0 auto;
-    padding-bottom: 10px;
+    margin: 10px auto;
+    border: 1px solid;
 }
